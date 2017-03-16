@@ -1,0 +1,99 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error{
+    color:red;
+}
+body{
+    background: #c7c7c7;
+}
+.container{
+    min-height:800px;
+    background: #fff;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* Success and Error Message*/
+.errorMsg{
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+.successMsg{
+    color: green;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+/*Home page*/
+#homePagePic{
+    margin-top:40px;
+}
+#homePagePic img{
+    height:500px;
+    width:540px;
+}
+
+
+/*Selecting Display Item Page without selecting type */
+.itemLinks {
+    text-align: center;
+}
+.itemLinks li{
+    display: inline;
+    margin: 20px;
+}
+
+
+/* Bid Item Display*/
+#itemName{
+    padding:50px;
+}
+#itemDesc{
+    padding: 10px;
+}
+#currentBid{
+    margin-left: 10px;
+}
+#btnBid{
+    text-align: center;
+}
+table #item{
+    border-collapse: collapse;
+}
+.item{
+    float: left;
+    padding:5em;
+}
+.itemRow{
+
+}
+.itemPic{
+    height:200px;
+    width:200px;
+}
+#bidError{
+    display:none;
+	color:red;
+	text-align:center;
+	
+	font-weight:bold;
+}
+#bidError td{
+	padding: 10px;
+}
+input[disabled]{
+    background:#999;
+}
